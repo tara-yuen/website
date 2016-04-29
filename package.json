@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarayuen/website.git"
+  },
+  "author": "tarayuen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarayuen/website/issues"
+  },
+  "homepage": "https://github.com/tarayuen/website#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "browser-sync": "^2.12.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3"
+  }
+}

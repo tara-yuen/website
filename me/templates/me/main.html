@@ -1,0 +1,131 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Compatible">
+    <title>Tara Yuen</title>
+
+    <!-- Standard -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Extra -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="{% static 'dist/styles/animate.min.css' %}">
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="{% static 'dist/styles/styles.css' %}">
+    <script type="text/javascript" src="{% static 'dist/js/parallax.js' %}"></script>
+</head>
+
+<body>
+<!-- <body id="top" data-spy="scroll" data-target=".navbar-fixed-top"> -->
+
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="top">
+            <img id="tarayuen" src="{% static 'dist/img/tarayuen.png' %}">
+        </a>
+    </div>
+    <ul class="nav navbar-nav navbar-right" id="navbar-items">
+        <li class="hidden">
+            <a class="page-scroll" href="#top"></a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#about">About</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+        </li>
+        <li>
+            <a href="https://ca.linkedin.com/in/tarayuen"><i class="fa fa-linkedin"></i></a>
+        </li>
+    </ul>
+</nav>
+<!-- End Navbar -->
+
+<div class="parallax">
+    <div class="group">
+        <div class="scroll-fill"></div>
+        <div class="layer base"></div>
+        <div class="layer mountain5">
+            <div class="cover">
+                <div id="about" class="content">
+                    <h1>About Me</h1>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum quis nisl et dapibus. Nunc a dolor ac lorem semper auctor ut in nisl. Integer porta odio mauris, in ultrices massa dapibus et. Suspendisse potenti. Proin nec eros eu purus tempor mattis vel sit amet justo. Suspendisse rutrum arcu at pellentesque sollicitudin. Etiam eros nulla, sagittis id scelerisque finibus, rutrum et libero.
+                    </p>
+                    <div class="container">
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum quis nisl et dapibus. Nunc a dolor ac lorem semper auctor ut in nisl. Integer porta odio mauris, in ultrices massa dapibus et. Suspendisse potenti. Proin nec eros eu purus tempor mattis vel sit amet justo. Suspendisse rutrum arcu at pellentesque sollicitudin. Etiam eros nulla, sagittis id scelerisque finibus, rutrum et libero.
+                        </p>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum quis nisl et dapibus. Nunc a dolor ac lorem semper auctor ut in nisl. Integer porta odio mauris, in ultrices massa dapibus et. Suspendisse potenti. Proin nec eros eu purus tempor mattis vel sit amet justo. Suspendisse rutrum arcu at pellentesque sollicitudin. Etiam eros nulla, sagittis id scelerisque finibus, rutrum et libero.
+                        </p>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum quis nisl et dapibus. Nunc a dolor ac lorem semper auctor ut in nisl. Integer porta odio mauris, in ultrices massa dapibus et. Suspendisse potenti. Proin nec eros eu purus tempor mattis vel sit amet justo. Suspendisse rutrum arcu at pellentesque sollicitudin. Etiam eros nulla, sagittis id scelerisque finibus, rutrum et libero.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layer mountain4"></div>
+        <div class="layer mountain3"></div>
+        <div class="layer mountain2"></div>
+        <div class="layer mountain1"></div>
+        <div class="layer logo"></div>
+        <div class="layer bg"></div>
+        
+        <div class="layer wave5">
+            <div class="cover">
+                <div id="portfolio" class="content">
+                    <div class="waves">
+                        <h1>Our Mission</h1>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum quis nisl et dapibus. Nunc a dolor ac lorem semper auctor ut in nisl. Integer porta odio mauris, in ultrices massa dapibus et. Suspendisse potenti. Proin nec eros eu purus tempor mattis vel sit amet justo. Suspendisse rutrum arcu at pellentesque sollicitudin. Etiam eros nulla, sagittis id scelerisque finibus, rutrum et libero.
+                        </p>
+                        <div class="container">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum quis nisl et dapibus. Nunc a dolor ac lorem semper auctor ut in nisl. Integer porta odio mauris, in ultrices massa dapibus et. Suspendisse potenti. Proin nec eros eu purus tempor mattis vel sit amet justo. Suspendisse rutrum arcu at pellentesque sollicitudin. Etiam eros nulla, sagittis id scelerisque finibus, rutrum et libero.
+                            </p>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum quis nisl et dapibus. Nunc a dolor ac lorem semper auctor ut in nisl. Integer porta odio mauris, in ultrices massa dapibus et. Suspendisse potenti. Proin nec eros eu purus tempor mattis vel sit amet justo. Suspendisse rutrum arcu at pellentesque sollicitudin. Etiam eros nulla, sagittis id scelerisque finibus, rutrum et libero.
+                            </p>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum quis nisl et dapibus. Nunc a dolor ac lorem semper auctor ut in nisl. Integer porta odio mauris, in ultrices massa dapibus et. Suspendisse potenti. Proin nec eros eu purus tempor mattis vel sit amet justo. Suspendisse rutrum arcu at pellentesque sollicitudin. Etiam eros nulla, sagittis id scelerisque finibus, rutrum et libero.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layer wave4"></div>
+        <div class="layer wave3"></div>
+        <div class="layer wave2"></div>
+        <div class="layer wave1"></div>
+        <div class="layer logo"></div>
+        <div class="layer bg2"></div>
+        <div class="footer">
+            <p>Copyright 2016</p>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="based"></div>
+</div>
+
+
+</body>
+</html>

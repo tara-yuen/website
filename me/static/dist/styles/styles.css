@@ -1,0 +1,271 @@
+/* Global
+--------------------------------------------- */
+body {
+  font-family: 'Lato', sans-serif;
+}
+/* Navbar
+--------------------------------------------- */
+.navbar {
+  margin-bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 20px 0;
+  color: #ffffff;
+}
+.navbar .nav li a {
+  font-size: 13pt;
+  margin-top: 5px;
+  color: #ffffff;
+}
+.navbar .navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.navbar .nav > .active {
+  background-color: #00BCD4;
+  color: #ffffff;
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  background-color: #00BCD4;
+  color: #ffffff;
+}
+.navbar .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar #tarayuen {
+  max-width: 100px;
+}
+/* Parallax
+--------------------------------------------- */
+body,
+html {
+  overflow: hidden;
+  background-color: #424242;
+}
+.parallax {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-perspective: 1px;
+  -ms-perspective: 1px;
+  perspective: 1px;
+}
+.parallax .group {
+  position: relative;
+  height: 100vh;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.parallax .group .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+}
+.parallax .group .base {
+  -webkit-transform: translateZ(0);
+  height: 100%;
+  z-index: -2;
+}
+.parallax .group .scroll-fill {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  opacity: 0.5;
+}
+.parallax .group .logo {
+  position: fixed;
+  -webkit-transform: translateZ(-3px) scale(4);
+  -ms-transform: translateZ(-3px) scale(4);
+  transform: translateZ(-3px) scale(4);
+  background-image: url("../img/tarayuen.png");
+  right: 0px;
+  width: 30vw;
+  margin-right: -50%;
+  margin-top: 13%;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 76%;
+  z-index: -9;
+}
+.parallax .group .bg {
+  position: fixed;
+  -webkit-transform: translateZ(-5px) scale(6);
+  -ms-transform: translateZ(-5px) scale(6);
+  transform: translateZ(-5px) scale(6);
+  background-image: url("../img/skiing.jpg");
+  background-size: 100%;
+  height: 100vh;
+  z-index: -10;
+}
+.parallax .group .bg2 {
+  position: fixed;
+  margin-top: 400%;
+  -webkit-transform: translateZ(-5px) scale(6);
+  -ms-transform: translateZ(-5px) scale(6);
+  transform: translateZ(-5px) scale(6);
+  background-image: url("../img/sailing.jpg");
+  background-size: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+.parallax .group .content {
+  position: relative;
+  min-height: 500px;
+  width: 100%;
+  line-height: 40px;
+  color: white;
+  font-size: 16px;
+  margin: auto;
+  text-align: center;
+  padding-top: 200px;
+}
+.parallax .group .content p {
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  max-width: 900px;
+}
+.parallax .group #about {
+  background-color: #26C6DA;
+}
+.parallax .group #portfolio {
+  background-color: #00838F;
+}
+.parallax .group .mountain5 {
+  -webkit-transform: translateZ(-1px) scale(2);
+  -ms-transform: translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
+  background-image: url("../img/mountain5.png");
+  margin-top: 100%;
+  z-index: -3;
+}
+.parallax .group .mountain5 .cover {
+  margin-top: 35%;
+  width: 100%;
+  height: 100%;
+  background-color: #26C6DA;
+}
+.parallax .group .mountain4 {
+  position: fixed;
+  -webkit-transform: translateZ(-2px) scale(3);
+  -ms-transform: translateZ(-2px) scale(3);
+  transform: translateZ(-2px) scale(3);
+  background-image: url("../img/mountain4.png");
+  margin-top: 140%;
+  z-index: -4;
+}
+.parallax .group .mountain3 {
+  position: fixed;
+  -webkit-transform: translateZ(-3px) scale(4);
+  -ms-transform: translateZ(-3px) scale(4);
+  transform: translateZ(-3px) scale(4);
+  background-image: url("../img/mountain3.png");
+  margin-top: 145%;
+  z-index: -5;
+}
+.parallax .group .mountain2 {
+  position: fixed;
+  -webkit-transform: translateZ(-4px) scale(5);
+  -ms-transform: translateZ(-4px) scale(5);
+  transform: translateZ(-4px) scale(5);
+  background-image: url("../img/mountain2.png");
+  margin-top: 175%;
+  z-index: -6;
+}
+.parallax .group .mountain1 {
+  position: fixed;
+  -webkit-transform: translateZ(-5px) scale(6);
+  -ms-transform: translateZ(-5px) scale(6);
+  transform: translateZ(-5px) scale(6);
+  background-image: url("../img/mountain1.png");
+  margin-top: 200%;
+  z-index: -7;
+}
+.parallax .group .wave5 {
+  -webkit-transform: translateZ(-1px) scale(2);
+  -ms-transform: translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
+  background-image: url("../img/wave5.png");
+  margin-top: 520%;
+  z-index: 6;
+}
+.parallax .group .wave5 .cover {
+  margin-top: 30%;
+  width: 100%;
+  height: 100%;
+  background-color: #00838F;
+}
+.parallax .group .wave4 {
+  position: fixed;
+  -webkit-transform: translateZ(-2px) scale(3);
+  -ms-transform: translateZ(-2px) scale(3);
+  transform: translateZ(-2px) scale(3);
+  background-image: url("../img/wave4.png");
+  margin-top: 560%;
+  z-index: 5;
+}
+.parallax .group .wave3 {
+  position: fixed;
+  -webkit-transform: translateZ(-3px) scale(4);
+  -ms-transform: translateZ(-3px) scale(4);
+  transform: translateZ(-3px) scale(4);
+  background-image: url("../img/wave3.png");
+  margin-top: 560%;
+  z-index: 4;
+}
+.parallax .group .wave2 {
+  position: fixed;
+  -webkit-transform: translateZ(-4px) scale(5);
+  -ms-transform: translateZ(-4px) scale(5);
+  transform: translateZ(-4px) scale(5);
+  background-image: url("../img/wave2.png");
+  margin-top: 610%;
+  z-index: 3;
+}
+.parallax .group .wave1 {
+  position: fixed;
+  -webkit-transform: translateZ(-5px) scale(6);
+  -ms-transform: translateZ(-5px) scale(6);
+  transform: translateZ(-5px) scale(6);
+  background-image: url("../img/wave1.png");
+  margin-top: 630%;
+  z-index: 2;
+}
+.parallax .based {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  background-color: transparent;
+}
+.footer {
+  -webkit-transform: translateZ(-1px) scale(2);
+  -ms-transform: translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
+  margin-top: 700%;
+  height: 50px;
+  background-color: #424242;
+  color: #FFFFFF;
+  z-index: 6;
+}
+.footer p {
+  margin: auto;
+  padding: 50px;
+  max-width: 900px;
+}
